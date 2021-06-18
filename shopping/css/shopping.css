@@ -1,3 +1,9 @@
+body {
+   font-family: delius;
+   background-color: white;
+   color: #222222;
+}
+
 .banner {
    max-width: 100%;
    max-height: 100%;
@@ -32,3 +38,69 @@
       display: block;
    }
 }
+
+.display_banner {
+   background-color: #68befd;
+   color: #222222;
+   padding: 0.1px;
+   margin-top: 5px;
+   border-radius: 5px;
+   width: 100%;
+   text-align: center;
+   font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+   .display_banner {
+      font-size: 18px;
+   }
+}
+
+/* Center website */
+.main {
+  max-width: 1500px;
+  margin: 7%;
+  transition: 1.5s;
+}
+
+.row {
+  display: inline-block;
+  margin: 0px -20px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  display: none; /* Hide all elements by default */
+}
+
+@media only screen and (max-width: 600px) {
+   .column {
+   width: 100%;
+   }
+   
+  .row, .row > .column  {
+      padding: 40px;
+   }   
+}
+
+@media only screen and (max-width: 500px) {
+  .row, .row > .column  {
+      padding: 20px;
+   }
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
