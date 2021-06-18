@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="The Cool Science Webpage">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="@the_cool_science (Atharva Vijay Tilewale)">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Cool Science</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+<link rel="icon" href="main/images/logo/the-cool-science-logo.png">
+<link rel="stylesheet" href="main/css/the_cool_science_webpage.css" type="text/css">
+<script src="https://kit.fontawesome.com/caefa2e24e.js" crossorigin="anonymous"></script>
+<!--Google ads script -->
+<script data-ad-client="ca-pub-6645735422711194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+<header>
+<div class="header">
+   <img class="logoimg" src="main/images/logo/the-cool-science-logo.png" alt="the_cool_science_logo">
+   <img class="bannerimg" src="main/images/logo/the-cool-science-website-text.png" alt="the_cool_science_logo_text">
+</div>
+</header>
+<!--Navigation bar-->
+<ul>
+<div class="navbar">
+<li>
+  <div id="showmenu" class="dropdown">
+    <button onclick="dropdownfn()" class="button buttonmenu dropbtn"><span></span><i class="material-icons">menu</i></button>
+      <div id="myDropdown" class="dropdown-content">
+        <div style="float:top">
+          <button class="backbtn" onclick="backfn()"><i class="material-icons">&#xe5c4;</i></button>
+        </div>
+      <a class="home active" href="#">Home</a>
+      <a class="home" href="shopping/shopping.htm">Shopping</a>
+      <!--<a class="home" href="contest/contest.htm">Contest</a>-->
+      <!--<a class="home" href="about/about.htm">About</a>-->
+      <a class="home" href="mailto:thecoolscience1820@gmail.com" target="blank">Report</a>      
+      <a class="home" href="https://wa.me/+918698649696" target="blank">Contact</a>
+        <div class="theme-switch-wrapper" style="color:var(--font-color); margin-left: 1px; padding: 3%"> 
+        <p class="home" style="transition: 0s"> Dark mode</p>
+        <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+           <div class="slider round"></div>
+        </label>
+        </div>    
+     </div>
+  </div>
+</li>
+<li>
+<div class="srchdropdown">
+  <button onclick="mysrchFunction()" class="srchdropbtn">Search..</button>
+       <div id="mysrchDropdown" class="srchdropdown-content">
+          <div class="srchrow">
+     <div class="srchcolumn">
+        <input type="text" placeholder="Search post.." id="mysrchInput" onkeyup="srchfilterFunction()">
+        <button onclick="srchbackfn()" class="srchbackbtn"><i class="fa fa-remove"></i></button>
+        <a href="main/buffer-soln.htm">Buffer solution</a>
+        <a href="main/adaptation-in-camels.htm">Camel adaptations</a>
+        <a href="main/whats-in-camels-hump.htm">Camel's hump</a>
+        <a href="main/kangaroo-rat.htm">Kangaroo rat</a>
+        <a href="main/metabolic-water.htm">Metabolic water</a>
+        <a href="main/second-pendulum.htm">Second's pendulum</a>
+        <a href="main/why-does-chopping-an-onion-makes-us-cry.htm">Why does chopping an onion makes us cry?</a>
+       </div>
+     </div>
+   </div>
+</div>
+</li>
+</ul>
+</div>
+
+<!--search button script-->
+<script src="main/js/searchbtn.js"></script>
+<br>
+
+<!--Slideshow-->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <q>Don't worry about failures, worry about the chances you miss when you don't even try.</q>
+    <p class="author">- Jack Canfield</p>
+  </div>
+  
+  <div class="mySlides fade">
+    <q>Education is not the learning of facts, but the training of the mind to think!</q>
+    <p class="author">- Albert Einstein</p>
+  </div>
+
+  <div class="mySlides fade">
+    <q>Education is the most powerful weapon for changing the world.</q>
+    <p class="author">- Nelson Mandela</p>
+  </div>
+  
+  <div class="mySlides fade">
+    <q>Any day that we don't give up puts us one day closer to success.</q>
+    <p class="author">- Joyce Meyer</p>
+  </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<!--Slideshow script-->
+<script src="main/js/slideshow.js"></script>
+
+<!--Top button-->
+<button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+<!--Navigation menu dropdown Script-->
+<script src="main/js/nav-menu-dropdown.js"></script>
+
+<!--Dark Mode Script-->
+<script src="main/js/dark-mode.js"></script>
+
+<!--Dropdown in dropdown script-->
+<script src="main/js/dropdown-in-dropdown.js"></script>
+
+<!--Overlay button...	
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script src="file:///home/kali/the_cool_science/js/overlay-btn.js"></script>
+-->
+
+<!--Image section-->
+<div class="main">
+  <div id="showmenu" class="dropdown">
+    <button onclick="filtersection()" class="filterbtn dropbtn" title="Filters"><span></span><i style="font-size:30px" class="material-icons">filter_list</i></button><br>
+      <div id="myfilterdropdown" class="dropdown-content fildropfloat">
+        <p class="home" style="border-bottom: var(--border); padding: 5px">Select Category..</p>
+        <button class="filter-dropbtn" onclick="filterSelection('all')"> Show all</button><br>
+        <button class="filter-dropbtn" onclick="filterSelection('biology')"> Biology </button><br>
+        <button class="filter-dropbtn" onclick="filterSelection('chemistry')"> Chemistry </button><br>
+        <button class="filter-dropbtn" onclick="filterSelection('physics')"> Physics </button>
+        <button class="filterbtn-close" onclick="backfilterfn()">Close</button>
+      </div>
+  </div>
+  
+<!--Filter dropdown script-->  
+<script src="main/js/filter-dropdown.js"></script>
+
+<div class="row">
+  <div class="column biology chemistry">
+    <div class="content">
+    <a href="main/why-does-chopping-an-onion-makes-us-cry.htm"><img src="main/images/home/crying-while-cutting-onion.png" alt="Why does chopping an onion makes us cry?" class="postimg" style="width:100%"></a>
+      <h4 class="home">Why do onion makes us cry?</h3>      
+      <p class="home-content">Onion contains 2 types of chemicals, sulfur and the enzyme synthase. When enzyme synthase reacts with sulfur they produces a a sulfur containing compund which is volatile.</p>
+    </div>
+  </div>
+  <div class="column biology chemistry">
+    <div class="content">
+      <a href="main/metabolic-water.htm"><img src="main/images/home/metabolic-water.png" alt="Metabolic Water" class="postimg" style="width:100%"></a>
+      <h4 class="home">Metabolic water</h4>
+      <p class="home-content">The water which is created in our body by metabolism of carbohydrates, proteins and fats.</p>
+    </div>
+  </div>
+  <div class="column physics">
+    <div class="content">
+      <a href="main/second-pendulum.htm"><img src="main/images/home/seconds-pendulum.png" alt="Second-Pendulum" class="postimg" style="width:100%"></a>
+      <h4 class="home">Second Pendulum</h4>
+      <p class="home-content">The pendulum whose time period is 2 second is called second pendulum. On earth the length of second pendulum is 1m.</p>
+    </div>
+  </div>
+  <div class="column biology">
+    <div class="content">
+      <a href="main/whats-in-camels-hump.htm"><img src="main/images/home/camels-hump.png" alt="Camel's hump" class="postimg" style="width:100%"></a>
+      <h4 class="home">What's in camel's hump?</h4>
+      <p class="home-content">Camel's hump is made up of fats. They breaks that fats and utilize water when they are unable to access food for long time.</p>
+    </div>
+  </div>
+  <div class="column biology">
+    <div class="content">
+    <a href="main/adaptation-in-camels.htm"><img src="main/images/home/camel-adaptation.png" alt="Camel Adaptation" class="postimg" style="width:100%"></a>
+      <h4 class="home">Camel</h4>
+      <p class="home-content">Camel can drink 100 litres of water within 10 mins and they excrete concentrated urine.</p>
+    </div>
+  </div>
+  <div class="column biology">
+    <div class="content">
+    <a href="main/kangaroo-rat.htm"><img src="main/images/home/kangaroo-rat.png" alt="Kangaroo rat" class="postimg" style="width:100%"></a>
+      <h4 class="home">Kangaroo rat</h4>
+      <p class="home-content">Kangaroo rat lives in desert areas and they can live without drinking water. They can jump upto 9 feet in one jump.</p>
+    </div>
+  </div>
+  <div class="column chemistry">
+    <div class="content">
+      <a href="main/buffer-soln.htm"><img src="main/images/home/buffer-solution.png" alt="Buffer Solution" class="postimg" style="width:100%"></a>
+      <h4 class="home">Buffer Solution</h4>
+      <p class="home-content">The solution which resist change in pH when small amount of strong acid or base or even water is added to it is called buffer solution.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Category script-->
+<script src="main/js/filter-category.js"></script>
+
+<!--Top button script-->
+<script src="main/js/top-btn.js"></script>
+
+<!--Footer section-->
+<footer>
+  <div class="footer">
+    <p class="footertext">Join us at</p>
+    <p style="font-size: 26px; color: white;" class="footertext">
+      <a href="https://www.instagram.com/the_cool_science" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/The-Cool-Science-108401491450154/" target="blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>	
+      <a href="https://t.me/thecoolscience" target="blank"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
+

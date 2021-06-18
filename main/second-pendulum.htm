@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="The pendulum whose time period is 2 second is called seconds pendulum. The tme period of pendulum depends on the length of the string of the pendulum.">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="@the_cool_science (Atharva Vijay Tilewale)">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>What is seconds pendulum - The Cool Science</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+<link rel="icon" href="images/logo/the-cool-science-logo.png">
+<link rel="stylesheet" href="css/the_cool_science_webpage.css" type="text/css">
+<script src="https://kit.fontawesome.com/caefa2e24e.js" crossorigin="anonymous"></script>
+<!--KaTex code-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+<!--Google ads script -->
+<script data-ad-client="ca-pub-6645735422711194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+<!--Navigation bar-->
+<ul>
+<div class="navbar">
+<li>
+  <div id="showmenu" class="dropdown">
+    <button onclick="dropdownfn()" class="button buttonmenu dropbtn"><span></span><i class="material-icons">menu</i></button>
+      <div id="myDropdown" class="dropdown-content">
+        <div style="float:top">
+          <button class="backbtn" onclick="backfn()"><i class="material-icons">&#xe5c4;</i></button>
+        </div>      
+      <a class="home" href="https://thecoolscience.github.io">Home</a>
+      <!--<a class="home" href="about.htm">About</a>-->
+      <a class="home" href="https://wa.me/+918698649696" target="blank">Contact</a>
+      <a class="home" href="mailto:thecoolscience1820@gmail.com" target="blank">Report</a>
+        <div class="theme-switch-wrapper" style="color:var(--font-color); margin-left: 1px; padding: 3%"> 
+        <p class="home" style="transition: 0s"> Dark mode</p>
+        <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+           <div class="slider round"></div>
+        </label>
+        </div>    
+     </div>
+  </div>
+</li>
+</div>
+<div class="c-share" style="float: right">
+  <input class="c-share__input" type="checkbox" id="sharebox">
+  <label class="c-share__toggler" for="sharebox">
+            <span class="c-share__icon"></span>
+        </label>
+
+  <ul class="c-share_options" data-title="Share post via..">
+   <div style="margin-top: -12px; float: none; display: inline-grid">
+    <li>
+      <a href="https://api.whatsapp.com/send?text=[What is seconds pendulum?] [https://thecoolscience.github.io/main/second-pendulum.htm]">
+        <i class="fab fa-whatsapp"><span>&nbsp;</span></i> Whatsapp
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer.php?u=https://thecoolscience.github.io/main/second-pendulum.htm">
+        <i class="fab fa-facebook-f"><span>&nbsp;</span> </i><span>&nbsp;</span> Facebook
+      </a>
+    </li>
+    <li>
+      <a href="https://t.me/share/url?url=https://thecoolscience.github.io/main/second-pendulum.htm&text=What is seconds pendulum?">
+        <i class="fab fa-telegram-plane"><span>&nbsp;</span></i> Telegram
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/share?url=[https://thecoolscience.github.io/main/second-pendulum.htm]&amp;text=[What is seconds pendulum?]">
+        <i class="fab fa-twitter"><span>&nbsp;</span></i> Twitter
+      </a>
+    </li>
+    <li>
+      <a href="mailto:?subject=[What is seconds pendulum?]&body=Check out this site:[https://thecoolscience.github.io/main/second-pendulum.htm]" title="Share by Email">
+        <i class="material-icons" style="font-size: 18px;">mail_outline<span>&nbsp;</span></i>Email
+      </a>
+    </li><br>
+    <input id="mycopyInput" type="text" value="https://thecoolscience.github.io/main/second-pendulum.htm">
+    <div class="tooltip">
+      <button class="copybtn" onclick="mycopyFunction()" onmouseout="outFunc()">
+        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          Copy link text
+      </button>
+    </div>
+<script src="js/copy-clipboard.js"></script>
+   </div>
+  </ul>
+</div>
+</ul>
+
+<!--Top button-->
+<button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+<!--Navigation menu dropdown script-->
+<script src="js/nav-menu-dropdown.js"></script>
+
+<!--Dark mode script-->
+<script src="js/dark-mode.js"></script>
+
+<!--Top button script-->
+<script src="js/top-btn.js"></script>
+
+<div class="row2">
+<div class="leftcolumn">
+<h1>Seconds Pendulum</h1>
+<p>A seconds pendulum (also called as Royal Pendulum) is a pendulum whose time period is 2 seconds; one second for swing in one direction and one second for returning swing. Eg: The pendulum of the clock. The time period of seconds pendulum depends upon the length of the string of the pendulum (T<span style="font-size: 20px">&#x221D;</span>L). On Earth the length of the seconds pendulum is 0.994m <span style="font-size:20px">&#x2248;</span> 1m.</p>
+<img src="images/info/pendulum.png" class="info-img"></img>
+<div style="display: block;">
+<p>The length of seconds pendulum is calculated by the following formula.</p>
+<p style="float: left;"><span class="math display">\[L=\dfrac{g}{{\pi}^{2}}\]</span></p>
+<p style="margin-top: 35px"><span>&nbsp; </span>(Where L=length and g=gravity)</p>
+<p style="margin-top: 60px;">We know that value of gravity on earth is 9.81 so let's calculate the length of seconds pendulum on Earth.</p><br></div>
+<div style="float: left"><h3>Calculation</h3>
+<div class="calculation" style="float: left; overflow-x: auto">
+<p><span class="math display">\[L=\dfrac{9.81}{{\pi}^{2}}=\dfrac{9.81}{{3.142}^{2}}=\dfrac{9.81}{9.872}=0.994\]</span></p>
+</div>
+<br><br><br><br><br><br><br>
+<p style="margin-top: -20px;"><span style="font-size:25px; opacity: 0.8">&#x21d2;</span><span>&nbsp;</span>Hence the length of seconds pendulum on Earth is 0.994m</p>
+<p style="margin-top: 25px">Now let's calculate the length of seconds pendulum on Moon.</p>
+<p><small><i>Note: Gravity on moon is 1/6 of gravity on Earth (1.62 m/s<sup>2</sup>)</i></small></p><br>
+<h3>Calculation</h3>
+<div class="calculation" style="float: left">
+<p><span class="math display">\[L=\dfrac{1.62}{{\pi}^{2}}=\dfrac{1.62}{{3.142}^{2}}=\dfrac{1.62}{9.872}=0.164\]</span></p>
+</div>
+<br><br><br><br><br><br>
+<p><span style="font-size:25px; opacity: 0.8">&#x21d2;</span><span>&nbsp;</span>Hence the length of seconds pendulum on the moon is 0.164 m</p>
+</div>
+<br>
+<div class="amazon-ads" style="float: left; width: 100%; height: auto;">
+<!--Amazon ads script-->
+<script type="text/javascript" language="javascript">
+      var aax_size='728x90';
+      var aax_pubname = 'thecoolscienc-21';
+      var aax_src='302';
+    </script>
+    <script type="text/javascript" language="javascript" src="https://c.amazon-adsystem.com/aax2/assoc.js"></script>
+</div>
+</div>
+
+
+
+<div class="rightcolumn">
+<div class="card meanings">
+<h2>Meanings</h2>
+<p class="m">1. Time Period of pendulum: The time required to complete 1 oscillation (one cycle).</p>
+</div>
+<div class="card see_also">
+<h2>See also</h2>
+<p class="m"><a href="why-does-chopping-an-onion-makes-us-cry.htm"><span>&#8728;</span><span>&nbsp;</span> Why does chopping an onion makes us cry?</a></p>
+<p class="m"><a href="metabolic-water.htm"><span>&#8728;</span><span>&nbsp;</span> What is metabolic water?</a></p>
+</div>
+</div>
+</div>
+<!--Footer section-->
+<footer>
+  <div class="footer">
+    <p class="footertext">Join us at</p>
+    <p style="font-size: 26px; color: white;" class="footertext">
+      <a href="https://www.instagram.com/the_cool_science" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/The-Cool-Science-108401491450154/" target="blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>	
+      <a href="https://t.me/thecoolscience" target="blank"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

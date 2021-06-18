@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+     <loc>https://thecoolscience.github.io/</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>1.00</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/buffer-soln.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/adaptation-in-camels.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/whats-in-camels-hump.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/kangaroo-rat.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/metabolic-water.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/second-pendulum.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+  
+  <url>
+     <loc>https://thecoolscience.github.io/main/why-does-chopping-an-onion-makes-us-cry.htm</loc>
+     <lastmod>2021-06-15T06:42:26+00:00</lastmod>
+     <priority>0.80</priority>
+  </url>
+
+  <url>
+     <loc>https://thecoolscience.github.io/404.html</loc>
+     <lastmod>2021-06-17T14:26:00+00:00</lastmod>
+     <priority>0.10</priority>
+  </url>
+</urlset>
