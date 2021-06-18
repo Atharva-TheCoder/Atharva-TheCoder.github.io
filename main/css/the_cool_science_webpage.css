@@ -894,11 +894,6 @@ a.home {
   transition: 1.5s;
 }
 
-@media only screen and (max-width: 600px) {
-   .home-content {
-      height: 34.8px;
-   }
-}
 
 #topBtn {
   display: none;

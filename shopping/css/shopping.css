@@ -58,11 +58,14 @@ body {
 }
 
 .leftcolumn {
-   width: 70%
+   width: 30%;
+   float: left;
 }
 
 .rightcolumn {
-   width: 30%
+   width: 67%;
+   float: left;
+   margin-left: 10px;
 }
 
 /* Center website */
@@ -83,6 +86,30 @@ body {
   padding: 2%;
 }
 
+.row2 {
+   display: inline-block;
+   padding: 10px;
+   float: left;
+}
+
+@media only screen and (max-width: 600px) {
+   .leftcolumn {
+      width: 60%;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .rightcolumn {
+      width: 100%;
+      float: none;
+   }
+   
+   .row2 {
+      float: none;
+   }
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -90,7 +117,7 @@ body {
   display: block; /* Hide all elements by default */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
    .column {
       width: 100%;
    }
@@ -126,6 +153,7 @@ body {
   background-color: var(--img-bg);
   padding: 10px;
   transition: 1.5s;
+  display: inline-block;
   border-radius: 7px;
   box-sizing: border-box;
   box-shadow: 2px 2px 16px 0px #00000063;
@@ -160,6 +188,7 @@ h4.home {
    overflow: hidden;
    text-overflow: ellipsis;
    transition: 1.5s;
+   margin: 10px;
 }
 
 a.home {
@@ -182,8 +211,35 @@ a.home {
   transition: 1.5s;
 }
 
+.shopbtn {
+   display: inline-block;
+   margin-left: 75%;
+   margin-right: auto;
+   text-align: center;
+   width: 20%;
+}
+
+a.shopbtn {
+   background-color: #98e4e8;
+   border: 2px solid #61b9be;
+   padding: 5px;
+   color: black;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+a.shopbtn:hover {
+   background-color: #4ec8ee;
+}
+
 @media only screen and (max-width: 600px) {
-   .home-content {
-      height: 34.8px;
+   .shopbtn {
+      display: block;
+      width: 50%;
+      margin-left: auto;
+   }
+   
+   a.shopbtn {
+      padding: 10px;
    }
 }
