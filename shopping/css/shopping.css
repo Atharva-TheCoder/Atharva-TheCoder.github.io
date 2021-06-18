@@ -71,7 +71,7 @@ body {
 /* Center website */
 .main {
   max-width: 1500px;
-  margin: 7%;
+  margin: 5%;
   transition: 1.5s;
 }
 
@@ -83,13 +83,38 @@ body {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 2%;
+  padding: 2.5%;
+  margin-right: 0%
 }
 
 .row2 {
    display: inline-block;
    padding: 10px;
    float: left;
+}
+
+@media only screen and (max-width: 1050px) {
+   .main {
+      margin: 0%;
+   }
+   
+   .row,
+   .row > .column {
+      padding: 2.5%;
+      margin-right: 0%;
+}
+}
+
+@media only screen and (max-width: 900px) {
+   .main {
+      margin: 7%;
+   }
+   
+   .row,
+   .row > .column {
+      padding: 2.5%;
+      margin-right: 2.5%
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -117,7 +142,7 @@ body {
   display: block; /* Hide all elements by default */
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 900px) {
    .column {
       width: 100%;
    }
@@ -130,7 +155,7 @@ body {
    
    .row, .row > .column  {
       padding: 2%;
-      margin-left: -5px;
+      margin-left: -3px;
    }   
 }
 
