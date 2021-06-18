@@ -2,6 +2,7 @@ body {
    font-family: delius;
    background-color: white;
    color: #222222;
+   
 }
 
 .banner {
@@ -56,6 +57,14 @@ body {
    }
 }
 
+.leftcolumn {
+   width: 70%
+}
+
+.rightcolumn {
+   width: 30%
+}
+
 /* Center website */
 .main {
   max-width: 1500px;
@@ -65,20 +74,26 @@ body {
 
 .row {
   display: inline-block;
-  margin: 0px -20px;
+  /*margin: 0px -20px;*/
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 20px;
+  padding: 2%;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
-  display: none; /* Hide all elements by default */
+  width: 45%;
+  display: block; /* Hide all elements by default */
+}
+
+@media only screen and (max-width: 800px) {
+   .column {
+      width: 100%;
+   }
 }
 
 @media only screen and (max-width: 600px) {
@@ -86,16 +101,18 @@ body {
    width: 100%;
    }
    
-  .row, .row > .column  {
-      padding: 40px;
+   .row, .row > .column  {
+      padding: 2%;
+      margin-left: -5px;
    }   
 }
 
 @media only screen and (max-width: 500px) {
   .row, .row > .column  {
       padding: 20px;
+      margin-left: -10px
    }
-}
+}   
 
 /* Clear floats after rows */ 
 .row:after {
@@ -104,3 +121,69 @@ body {
   clear: both;
 }
 
+/* Content */
+.content {
+  background-color: var(--img-bg);
+  padding: 10px;
+  transition: 1.5s;
+  border-radius: 7px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 16px 0px #00000063;
+}
+
+/* The "show" class is added to the filtered elements */
+.showimg {
+  display: block;
+}
+
+.imgsection {
+   padding: 2px;
+   background-color: var(--bg-color);
+   margin: 2px;
+   transition: 1.5s;
+}
+
+.home {
+   font-size: 16px;
+   color: var(--font-color);
+   overflow: hidden;
+   text-overflow: ellipsis;
+   transition: 1.5s;
+}
+
+h4.home {
+   font-size: 16px;
+   color: var(--font-color);
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   transition: 1.5s;
+}
+
+a.home {
+   font-size: 16px;
+   transition: 0s;
+}
+
+.home-content {
+  color: var(--font-color);
+  display: -webkit-box;
+  text-align: justify;
+  max-width: 100%;
+  margin: 10px;
+  font-size: 16px;
+  line-height: 1.2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 1.5s;
+}
+
+@media only screen and (max-width: 600px) {
+   .home-content {
+      height: 34.8px;
+   }
+}
