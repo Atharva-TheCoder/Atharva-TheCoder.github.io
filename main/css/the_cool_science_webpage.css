@@ -1046,9 +1046,19 @@ p {
    padding-top: 3px;
    padding-bottom: 3px;
    margin-left: 10px;
-   margin-right: 10px;
+   margin-right: 15px;
    border-radius: 14px;
    float: left;
+}
+
+.info-img-2 {
+   width: 50%;
+   border-radius: 0px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   float: none;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
 .card {
@@ -1093,6 +1103,15 @@ p {
       padding: 10px;
       margin: unset;
    }
+   
+   .info-img-2 {
+      max-width: 80%;
+      width: auto;
+      height: auto;
+      padding: 10px;
+      margin: unset;
+   }   
+   
 }
 
 @media only screen and (max-width: 900px) {
@@ -1103,6 +1122,15 @@ p {
       padding: 10px;
       margin: unset;
    }
+
+   .info-img-2 {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      padding: 10px;
+      margin: unset;
+   }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -1113,10 +1141,27 @@ p {
       padding: 10px;
       margin: unset;
    }
+
+   .info-img-2 {
+      max-width: 80%;
+      width: auto;
+      height: auto;
+      padding: 10px;
+      margin: unset;
+   }
+
 }
 
 @media only screen and (max-width: 500px) {
    .info-img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      padding: 10px;
+      margin: unset;
+   }
+   
+   .info-img-2 {
       max-width: 100%;
       width: auto;
       height: auto;
