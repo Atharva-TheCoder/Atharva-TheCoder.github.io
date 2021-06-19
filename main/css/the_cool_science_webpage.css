@@ -1508,6 +1508,19 @@ p.footertext {
    margin-right: 10px;
 }
 
+.amazon-ads-2 {
+   overflow-x: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+   display: block;
+}
+
+@media only screen and (max-width: 600px) {
+   .amazon-ads-2 {
+      display: none;
+   }
+}
+
 /*404 error page*/
 .main404 {
    font-family: Delius;
