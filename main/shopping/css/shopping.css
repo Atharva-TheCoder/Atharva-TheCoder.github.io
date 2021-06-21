@@ -230,7 +230,7 @@ a.home {
 .home-content {
   color: var(--font-color);
   display: -webkit-box;
-  text-align: justify;
+  text-align: left;
   max-width: 100%;
   margin: 10px;
   font-size: 16px;
