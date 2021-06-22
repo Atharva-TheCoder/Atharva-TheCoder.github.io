@@ -69,12 +69,6 @@ body {
    margin-left: 10px;
 }
 
-.img {
-   align-items: center;
-   justify-content: center;
-   display: flex;
-}
-
 /* Center website */
 .main {
   max-width: 1500px;
@@ -246,13 +240,6 @@ a.home {
   overflow: hidden;
   text-overflow: ellipsis;
   transition: 1.5s;
-}
-
-.price {
-   color: #555;
-   font-size: 14px;
-   margin: 10px;
-   text-align: left;
 }
 
 .shopbtn {
