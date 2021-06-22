@@ -242,6 +242,13 @@ a.home {
   transition: 1.5s;
 }
 
+.price {
+   color: #555;
+   font-size: 14px;
+   margin: 10px;
+   text-align: left;
+}
+
 .shopbtn {
    display: inline-block;
    margin-left: 75%;
