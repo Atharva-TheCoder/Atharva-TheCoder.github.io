@@ -232,8 +232,8 @@ li {
 }
 
 input[type=text] {
-  width: 150px;
-  height: 45px;
+  width: 125px;
+  height: 38px;
   color: var(--font-color);
   box-sizing: border-box;
   border: 2px solid #6666ff;
@@ -243,28 +243,28 @@ input[type=text] {
   background-image: url('output-onlinepngtools.png');
   background-position: 10px 10px; 
   background-repeat: no-repeat;
-  padding: 10px 20px 10px 40px;
+  padding: 10px 20px 10px 20px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.5s ease-in-out;
-  margin-left: 5px;
-  margin-top: 2px;
+  margin-left: 15px;
+  margin-top: 5px;
   margin-bottom: 5px;
   transition: 1.5s;
 }
 
 input[type=text]:focus {
-  width: 78%;
+  width: 100%
 }
 
 @media only screen and (max-width: 600px) {
    input[type=text] {
-      width: 130px;
-      height: 43px;
+      width: 125px;
+      height: 38px;
       font-size: 12px;
    }
    
    input[type=text]:focus {
-      width: 74%;
+      width: 100%;
    }
 }
 
