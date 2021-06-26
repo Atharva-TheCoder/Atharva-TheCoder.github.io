@@ -57,17 +57,10 @@
        <div id="mysrchDropdown" class="srchdropdown-content">
           <div class="srchrow">
      <div class="srchcolumn">
-        <input type="text" placeholder="Search post.." id="mysrchInput" onkeyup="srchfilterFunction()">
+        <input type="text" placeholder="Search post.." id="searchBoxInput" onkeyup="srchfilterFunction()">
+        <img id="searchBoxIcon" src="https://techstop.github.io/img/search.png" />
         <button onclick="srchbackfn()" class="srchbackbtn"><i class="fa fa-remove"></i></button>
-        <a href="main/buffer-soln.htm">Buffer solution</a>
-        <a href="main/adaptation-in-camels.htm">Camel adaptations</a>
-        <a href="main/whats-in-camels-hump.htm">Camel's hump</a>
-        <a href="main/how-blood-group-is-determined.htm">How blood group is determined?</a>
-        <a href="main/kangaroo-rat.htm">Kangaroo rat</a>
-        <a href="main/metabolic-water.htm">Metabolic water</a>
-        <a href="main/second-pendulum.htm">Second's pendulum</a>
-        <a href="main/why-does-chopping-an-onion-makes-us-cry.htm">Why does chopping an onion makes us cry?</a>
-       </div>
+        <div id="searchResults"></div>
      </div>
    </div>
 </div>
@@ -77,6 +70,7 @@
 
 <!--search button script-->
 <script src="main/js/searchbtn.js"></script>
+<script src="bundle_min_544e8745be7c88924af3c62198a3969cf339cd6fe694b02cf5e87dc3b923dcf3.js"></script>
 <br>
 
 <!--Slideshow-->
