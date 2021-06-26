@@ -1,0 +1,122 @@
+[{
+  "ref": "https://techstop.github.io/get-cpu-gpu-temps-linux/","title": "Get CPU and GPU Temps in Linux","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/fix-screen-tearing-xfce/","title": "Fix Screen Tearing in Xfce","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/install-global-app-menu-xubuntu/","title": "Install a Global App Menu in Xubuntu 18.04","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/upgrade-kept-back-packages/","title": "Upgrade Kept Back Packages in Linux","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/remove-orphaned-packages-linux/","title": "Remove Orphaned Packages in Linux","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/bash-aliases/","title": "Bash Aliases","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/clear-reset-terminal/","title": "Clear or Reset Terminal","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/linux-os-version-terminal/","title": "Check Linux OS Version in Terminal","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/update-linux-terminal/","title": "Update Linux in a Terminal","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/time-command-linux/","title": "Time a Command in Linux","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/redirect-append-to-file/","title": "Redirect and Append to a File in Linux","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/bash-exit-status/","title": "Bash Exit Status","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/rename-files-folders-linux/","title": "Rename Files \u0026 Folders Linux Command Line","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/ubuntu-unused-kernels/","title": "Remove Unused Kernels Ubuntu 18.04","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/google-app-podcasts/","title": "Listen To Podcasts With The Google App","cats": "android, news","tags": "android, apps"},
+{
+  "ref": "https://techstop.github.io/bash-arrays/","title": "Bash Arrays","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/directory-exists-bash/","title": "Check If Directory Exists In Linux With Bash","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/bash-script-colors/","title": "Colors In Bash Scripts","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/menu-bash-script/","title": "Create a Menu in a Bash Script","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/bash-functions/","title": "Write Bash Functions","cats": "tutorials, linux","tags": "tutorials, linux"},
+{
+  "ref": "https://techstop.github.io/desktop-chrome-extensions-android/","title": "Add Desktop Chrome Extensions From Android","cats": "news","tags": "browser"},
+{
+  "ref": "https://techstop.github.io/linux-commands-hardware-info/","title": "Linux Commands To Get Hardware Info","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/dark-mode-for-any-website-with-dark-reader/","title": "Dark Mode for Any Website With Dark Reader","cats": "news","tags": "browser"},
+{
+  "ref": "https://techstop.github.io/detect-android-wakelocks/","title": "Detect Android Wakelocks","cats": "Tutorials, android","tags": "android, tutorials"},
+{
+  "ref": "https://techstop.github.io/manipulate-text-files-sed/","title": "Manipulate Text in Files With Sed","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/create-desktop-launcher-linux/","title": "Create A Desktop Launcher In Linux","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/create-bootable-usb-with-terminal-in-linux/","title": "Create Bootable Usb With Terminal in Linux","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/move-chrome-cache-location-in-linux/","title": "Move Chrome Cache Location in Linux","cats": "Tutorials, Linux","tags": "linux, tutorials, browser"},
+{
+  "ref": "https://techstop.github.io/make-xfce-look-modern/","title": "Make Xfce Look Modern","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/pause-and-resume-wget-downloads/","title": "Pause and Resume Wget Downloads","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/xfce-4-14-on-xubuntu-18-04/","title": "Install Xfce 4.14 on Xubuntu 18.04","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/ubuntu-18-04-3-release/","title": "Ubuntu 18.04.3 Release with Linux Kernel 5.0","cats": "Tutorials, Linux","tags": "linux, tutorials"},
+{
+  "ref": "https://techstop.github.io/admob-tutorial/","title": "Admob Tutorial","cats": "Tutorials, Android","tags": "android studio, app development, java, Tutorials, Android"},
+{
+  "ref": "https://techstop.github.io/android-webview/","title": "Android WebView","cats": "Tutorials, Android","tags": "android studio, app development, java, Tutorials, Android"},
+{
+  "ref": "https://techstop.github.io/android-toolbar/","title": "Android Toolbar","cats": "Tutorials, Android","tags": "android studio, app development, java, Tutorials, android"},
+{
+  "ref": "https://techstop.github.io/android-broadcastreceiver/","title": "Android BroadcastReceiver","cats": "Tutorials, Android","tags": "android studio, app development, java, Tutorials, android"},
+{
+  "ref": "https://techstop.github.io/freedom-kernel-for-the-zmax-pro/","title": "Freedom Kernel for the Zmax Pro","cats": "Android","tags": "android, zte, z981, kernels, phones"},
+{
+  "ref": "https://techstop.github.io/reduce-apk-size/","title": "How To Reduce Apk Size","cats": "Tutorials, Android","tags": "android studio, app development, Tutorials, android"},
+{
+  "ref": "https://techstop.github.io/android-mounts-and-partition-images/","title": "How To Get Android Mounts and Partition Images","cats": "Android, Tutorials, Linux","tags": "Android, Tutorials, Linux"},
+{
+  "ref": "https://techstop.github.io/arc-dark-theme-for-gedit/","title": "Arc Dark Theme For Gedit","cats": "Linux, Tutorials","tags": "Linux, Tutorials"},
+{
+  "ref": "https://techstop.github.io/apk-utility/","title": "APK Utility","cats": "Android, Linux","tags": "Android, Linux, Decompile APK, apktool"},
+{
+  "ref": "https://techstop.github.io/open-file-as-root/","title": "Open File as Root","cats": "Linux, Tutorials","tags": "Linux, Tutorials"},
+{
+  "ref": "https://techstop.github.io/install-adb-on-linux/","title": "Install ADB On Linux","cats": "Linux, Tutorials, Android","tags": "Linux, Android, Tutorials"},
+{
+  "ref": "https://techstop.github.io/mktool/","title": "mktool","cats": "Android, Linux","tags": "Android, Linux, unpack boot.img"},
+{
+  "ref": "https://techstop.github.io/backup-and-debloat-android-no-root/","title": "Backup and Debloat Android No Root","cats": "Android, Linux","tags": "Android, Linux"},
+{
+  "ref": "https://techstop.github.io/mkv-to-mp4/","title": "MKV to MP4","cats": "Linux","tags": "Linux"},
+{
+  "ref": "https://techstop.github.io/reboot-utility/","title": "Reboot Utility","cats": "Android","tags": "Android, Apps"},
+{
+  "ref": "https://techstop.github.io/recovery-reboot/","title": "Recovery Reboot","cats": "Android","tags": "Android, Apps"},
+{
+  "ref": "https://techstop.github.io/lg-g-stylo-katana-rom/","title": "LG G Stylo Katana ROM","cats": "Android","tags": "LG, MS631, H631, Android, roms, phones"},
+{
+  "ref": "https://techstop.github.io/lg-g-stylo-twrp-recovery/","title": "LG G Stylo TWRP Recovery","cats": "Android","tags": "LG, MS631, H631, Android, phones"},
+{
+  "ref": "https://techstop.github.io/lg-optimus-f6-freedom-kernel/","title": "LG Optimus F6 Freedom Kernel","cats": "Android","tags": "LG, MS500, D500, Android, Kernels, phones"},
+{
+  "ref": "https://techstop.github.io/lg-g-stylo-flashable-v10j/","title": "LG G Stylo Flashable v10j","cats": "Android","tags": "LG, MS631, H631, Android, roms, phones"},
+{
+  "ref": "https://techstop.github.io/lg-g-stylo-unbrick-guide/","title": "LG G Stylo Unbrick Guide","cats": "Android","tags": "LG, MS631, H631, Android, phones"},
+{
+  "ref": "https://techstop.github.io/lg-optimus-f6-xperion-rom/","title": "LG Optimus F6 Xperion ROM","cats": "Android","tags": "LG, MS500, D500, Android, roms, phones"},
+{
+  "ref": "https://techstop.github.io/lg-optimus-f3-freedom-kernel/","title": "LG Optimus F3 Freedom Kernel","cats": "Android","tags": "LG, MS659, P659, Android, Kernels, phones"},
+{
+  "ref": "https://techstop.github.io/lg-optimus-f3-roms/","title": "LG Optimus F3 ROMs","cats": "Android","tags": "LG, MS659, P659, Android, roms, phones"},
+{
+  "ref": "https://techstop.github.io/lg-optimus-f7-kernel/","title": "LG Optimus F7 Kernel","cats": "Android","tags": "LG, LG870, Android, Kernels, phones"},
+{
+  "ref": "https://techstop.github.io/lg-lucid-2-xperion-rom/","title": "LG Lucid 2 Xperion ROM","cats": "Android","tags": "LG, VS870, Android, roms, phones"},
+{
+  "ref": "https://techstop.github.io/lg-spirit-4g-roms/","title": "LG Spirit 4G ROMs","cats": "Android","tags": "LG, MS870, Android, roms, phones"},
+{
+  "ref": "https://techstop.github.io/lg-motion-4g-kernel/","title": "LG Motion 4G Kernel","cats": "Android","tags": "LG, MS770, Android, Kernels, phones"},
+{
+  "ref": "https://techstop.github.io/huawei-ascend-m860-centurion-rom/","title": "Huawei Ascend M860 Centurion ROM","cats": "Android","tags": "Huawei, M860, Android, roms, phones"}]
