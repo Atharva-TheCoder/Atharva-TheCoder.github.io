@@ -539,6 +539,11 @@ input[type=text]:focus {
   clear: both;
 }
 
+.searchResultBody {
+   font-size: 12px;
+   margin-left: 10px; 
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .srchcolumn {

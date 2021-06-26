@@ -39,19 +39,19 @@ const query=$(event.currentTarget).val()
 if(query.length){$('#searchBoxIcon').attr('src','../img/clear.png')
 $('#searchBoxIcon').css('cursor','pointer')}else{$('#searchBoxIcon').attr('src','../img/search.png')
 $('#searchBoxIcon').css('cursor','default')}
-if(query.length<2){$searchResults.hide()
+if(query.length<1){$searchResults.hide()
 return}
 renderResults(search(query))
 $searchResults.show()})
 $('#searchBoxInput').trigger('keyup')}
 const renderResults=(results)=>{const $searchResults=$('#searchResults')
 const query=$('#searchBoxInput').val()
-const MAX_PAGES=10
+const MAX_PAGES=50
 $searchResults.empty()
 if(!results.length){$searchResults.append('<div class="searchResultPage">No results found for query "'+query+'"</div>')
 return}
 results.slice(0,MAX_PAGES).forEach((result,idx)=>{const $searchResultPage=$('<div class="searchResultPage">')
-$searchResultPage.append('<h2><a class="searchResultTitle" href="'+result.ref+'">'+result.title+'</a></h2>')
+$searchResultPage.append('<h4><a class="searchResultTitle" href="'+result.ref+'">'+result.title+'</a></h4>')
 if(result.cats!=null){$searchResultPage.append('<div class="searchResultBody">'+'Categories: '+result.cats+'</div>')}
 if(result.tags!=null){$searchResultPage.append('<div class="searchResultBody">'+'Tags: '+result.tags+'</div>')}
 $searchResultPage.append('<hr>')
