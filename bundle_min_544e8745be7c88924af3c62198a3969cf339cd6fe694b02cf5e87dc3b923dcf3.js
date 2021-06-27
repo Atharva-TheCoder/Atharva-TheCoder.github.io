@@ -39,14 +39,14 @@ const query=$(event.currentTarget).val()
 if(query.length){$('#searchBoxIcon').attr('src','../img/clear.png')
 $('#searchBoxIcon').css('cursor','pointer')}else{$('#searchBoxIcon').attr('src','../img/search.png')
 $('#searchBoxIcon').css('cursor','default')}
-if(query.length<2){$searchResults.hide()
+if(query.length<1){$searchResults.hide()
 return}
 renderResults(search(query))
 $searchResults.show()})
 $('#searchBoxInput').trigger('keyup')}
 const renderResults=(results)=>{const $searchResults=$('#searchResults')
 const query=$('#searchBoxInput').val()
-const MAX_PAGES=10
+const MAX_PAGES=50
 $searchResults.empty()
 if(!results.length){$searchResults.append('<div class="searchResultPage">No results found for query "'+query+'"</div>')
 return}
