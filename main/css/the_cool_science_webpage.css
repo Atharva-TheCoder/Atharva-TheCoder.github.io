@@ -523,6 +523,10 @@ a.searchResultTitle:hover {
    color: #666
 }
 
+#searchResults mark {
+   background-color: #dddfdf;
+}
+
 .srchdropbtn {
   background-color: var(--navbtn-bg);
   color: var(--font-color);
