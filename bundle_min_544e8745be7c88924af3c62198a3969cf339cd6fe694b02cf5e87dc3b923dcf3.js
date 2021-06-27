@@ -46,7 +46,7 @@ $searchResults.show()})
 $('#searchBoxInput').trigger('keyup')}
 const renderResults=(results)=>{const $searchResults=$('#searchResults')
 const query=$('#searchBoxInput').val()
-const MAX_PAGES=50
+const MAX_PAGES=10
 $searchResults.empty()
 if(!results.length){$searchResults.append('<div class="searchResultPage">No results found for query "'+query+'"</div>')
 return}
