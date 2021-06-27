@@ -11,6 +11,7 @@
     --shadow-nav: 0px 4px 8px 0px rgb(0, 0, 2, 0.2);
     --navbtn-bg: white;
     --menu-btn-click: linear-gradient(to top right, #9966ff 0%, #33ccff 100%);
+    --search-popup-bg: rgb(0, 0, 0, 0.7);
     --dropdown-menu-bg: #fff;
     --dropodown-menu-shadow: 0px 8px 16px 0px lightgrey;
     --dropdown-hover-bg: lightgrey;
@@ -42,6 +43,7 @@
     --shadow-nav: 0px 4px 8px 0px rgb(86, 86, 143, 0.5);
     --navbtn-bg: #131320;
     --menu-btn-click: linear-gradient(to bottom right, #323255 0%, #12121b 100%);
+    --search-popup-bg: rgb(38, 38, 62, 0.8);
     --dropdown-menu-bg: #161625;
     --dropdown-menu-shadow: 0px 8px 16px 0px rgb(86, 86, 143, 0.5);
     --dropdown-hover-bg: #4d4d80;
@@ -437,19 +439,18 @@ input[type=text]:focus {
 
 .popupbutton {
   font-size: 1em;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: var(--navbtn-bg);
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #222;
+  color: var(--font-color);
   border: 2px solid #66f;
   border-radius: 20px;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease-out;
+  transition: 1.5s;
 }
 .popupbutton:hover {
-  background: #fff;
   box-shadow: 0px 0px 5px 0px #66f;
 }
 
@@ -459,7 +460,7 @@ input[type=text]:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: var(--search-popup-bg);
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
@@ -472,7 +473,7 @@ input[type=text]:focus {
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: #fff;
+  background: var(--navbtn-bg);
   border-radius: 5px;
   width: 70%;
   height: auto;
@@ -484,9 +485,10 @@ input[type=text]:focus {
 
 .popup h2 {
   margin-top: 0;
-  color: #333;
+  color: var(--font-color);
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -495,11 +497,9 @@ input[type=text]:focus {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: var(--font-color);
 }
-.popup .close:hover {
-  color: #222;
-}
+
 .popup .content {
   overflow: auto;
 }
@@ -512,7 +512,7 @@ input[type=text]:focus {
 }
 
 #searchResults .searchResultTitle {
-   color: #222;
+   color: var(--font-color);
 }
 
 a {
@@ -520,7 +520,7 @@ a {
 }
 
 a.searchResultTitle:hover {
-   color: #666
+   color: var(--font-color);
 }
 
 #searchResults mark {
