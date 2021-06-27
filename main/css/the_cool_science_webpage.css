@@ -498,7 +498,7 @@ input[type=text]:focus {
   color: #222;
 }
 .popup .content {
-  max-height: 30%;
+  height: 500px;
   overflow: auto;
 }
 
