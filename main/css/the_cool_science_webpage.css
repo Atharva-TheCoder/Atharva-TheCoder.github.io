@@ -475,6 +475,9 @@ input[type=text]:focus {
   background: #fff;
   border-radius: 5px;
   width: 70%;
+  height: auto;
+  max-height: 80%;
+  overflow: auto;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -498,8 +501,6 @@ input[type=text]:focus {
   color: #222;
 }
 .popup .content {
-  height: auto;
-  max-height: 100%;
   overflow: auto;
 }
 
@@ -508,6 +509,18 @@ input[type=text]:focus {
   .popup{
     width: 90%;
   }
+}
+
+#searchResults .searchResultTitle {
+   color: #222;
+}
+
+a {
+   text-decoration: none;
+}
+
+a.searchResultTitle:hover {
+   color: #666
 }
 
 .srchdropbtn {
