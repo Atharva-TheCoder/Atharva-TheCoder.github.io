@@ -20,7 +20,7 @@ const queryNgramSeparator=(query)=>{const str=query.toString().trim().toLowerCas
 const tokens=[]
 for(let i=0;i<=str.length-2;i++){tokens.push(str.slice(i,i+2))}
 return tokens.join(' ')}
-const initLunr=()=>{$.getJSON('index.json').done((index)=>{pagesIndex=index
+const initLunr=()=>{$.getJSON('search.json').done((index)=>{pagesIndex=index
 lunrIndex=lunr(builder=>{builder.tokenizer=bigramTokeniser
 builder.pipeline.reset()
 builder.ref('ref')
@@ -39,7 +39,7 @@ const query=$(event.currentTarget).val()
 if(query.length){$('#searchBoxIcon').attr('src','../img/clear.png')
 $('#searchBoxIcon').css('cursor','pointer')}else{$('#searchBoxIcon').attr('src','../img/search.png')
 $('#searchBoxIcon').css('cursor','default')}
-if(query.length<1){$searchResults.hide()
+if(query.length<2){$searchResults.hide()
 return}
 renderResults(search(query))
 $searchResults.show()})

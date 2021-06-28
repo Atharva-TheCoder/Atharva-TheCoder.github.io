@@ -46,7 +46,7 @@
     --shadow-nav: 0px 4px 8px 0px rgb(86, 86, 143, 0.5);
     --navbtn-bg: #131320;
     --menu-btn-click: linear-gradient(to bottom right, #323255 0%, #12121b 100%);
-    --search-popup-bg: rgb(38, 38, 62, 0.8);
+    --search-popup-bg: rgba(139, 139, 181, 0.7);
     --search-popup-border: 1px solid #6666ff7d;
     --search-popup-mark-bg: #6472a8;
     --search-popup-mark-color: #fdfdfd;
