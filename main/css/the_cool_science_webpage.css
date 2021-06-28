@@ -519,6 +519,7 @@ input[type=text]:focus {
 
 #searchResults .searchResultTitle {
    color: var(--font-color);
+   transition: 1.5s;
 }
 
 a {
@@ -527,11 +528,13 @@ a {
 
 a.searchResultTitle:hover {
    color: var(--font-color);
+   transition: 1.5s;
 }
 
 #searchResults mark {
    background-color: var(--search-popup-mark-bg);
    color: var(--search-popup-mark-color);
+   transition: 1.5s;
 }
 
 hr {
@@ -539,6 +542,7 @@ hr {
    border-top: var(--search-popup-border);
    margin: 30px 0;
    height: 0;
+   transition: 1.5s;
 }
 
 .srchdropbtn {
