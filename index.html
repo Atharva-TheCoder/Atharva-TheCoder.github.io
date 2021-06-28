@@ -53,7 +53,7 @@
 </li>
 <li>
 <div class="box">
-  <a class="popupbutton" href="#popup1">Search..</a>
+  <button class="popupbutton" onclick="searchpopupfn()">Search..</button>
 </div>
 
 <div id="popup1" class="overlay">
@@ -61,7 +61,7 @@
      <input type="text" placeholder="Search post.." id="searchBoxInput" onkeyup="srchfilterFunction()">
      <!--<img id="searchBoxIcon" src="https://techstop.github.io/img/search.png" />-->
      <!--<button onclick="srchbackfn()" class="srchbackbtn"><i class="fa fa-remove"></i></button>-->
-     <a class="close" href="#">&times;</a>
+     <button onclick="searchpopupfn()" class="closepopup">&#x2715;</button>
      <div id="searchResults" style="display: none;"></div>
   </div>
 </div>
@@ -70,8 +70,8 @@
 </div>
 
 <!--search button script-->
-<script src="main/js/searchbtn.js"></script>
-<script src="main/js/search.js"></script>
+<script src="main/js/searchpopup.js"></script>
+<script src="main/js/searchlist.js"></script>
 <br>
 
 <!--Slideshow-->

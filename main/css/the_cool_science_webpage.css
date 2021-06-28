@@ -436,8 +436,9 @@ input[type=text]:focus {
 /*Popup*/
 .box {
   margin: 0 auto;
+  margin-left: 5px;
   background-color: transparent;
-  padding: 12px;
+  padding: 6px;
   border-radius: 20px;
   background-clip: padding-box;
   text-align: center;
@@ -476,6 +477,11 @@ input[type=text]:focus {
   opacity: 1;
 }
 
+.showpopup {
+   visibility: visible;
+   opacity: 1;
+}
+
 .popup {
   margin: 70px auto;
   padding: 20px;
@@ -495,15 +501,18 @@ input[type=text]:focus {
   font-family: Tahoma, Arial, sans-serif;
 }
 
-.popup .close {
+.popup .closepopup {
   position: absolute;
-  top: 20px;
+  top: 28px;
   right: 30px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
   color: var(--font-color);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;  
 }
 
 .popup .content {
