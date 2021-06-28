@@ -1,18 +1,18 @@
 [
-   {"ref": "how-blood-group-is-determined.htm","title": "How Blood group is determined","cats": "Biology, Medical","tags": "blood, antigen, antibody, rh, biology, chemistry"},
+   {"ref": "main/how-blood-group-is-determined.htm","title": "How Blood group is determined","cats": "Biology, Medical","tags": "blood, antigen, antibody, rh, biology, chemistry"},
    
-   {"ref": "why-does-chopping-an-onion-makes-us-cry.htm","title": "Why does chopping an onion makes us cry","cats": "Biology, Chemistry","tags": "onion, biology, chemistry"},
+   {"ref": "main/why-does-chopping-an-onion-makes-us-cry.htm","title": "Why does chopping an onion makes us cry","cats": "Biology, Chemistry","tags": "onion, biology, chemistry"},
    
-   {"ref": "metabolic-water.htm","title": "What is Metabolic Water","cats": "Biology, Chemistry","tags": "metabolic-water, biology, chemistry, respiration, metabolism"},
+   {"ref": "main/metabolic-water.htm","title": "What is Metabolic Water","cats": "Biology, Chemistry","tags": "metabolic-water, biology, chemistry, respiration, metabolism"},
    
-   {"ref": "second-pendulum.htm","title": "What is Second's Pendulum","cats": "Physics","tags": "pendulum, physics, gravity"},
+   {"ref": "main/second-pendulum.htm","title": "What is Second's Pendulum","cats": "Physics","tags": "pendulum, physics, gravity"},
    
-   {"ref": "whats-in-camels-hump.htm","title": "What's in Camel's Hump","cats": "Biology, Ecology, Animal physiology","tags": "biology, camel-hump, physiology, fats, ecology"},
+   {"ref": "main/whats-in-camels-hump.htm","title": "What's in Camel's Hump","cats": "Biology, Ecology, Animal physiology","tags": "biology, camel-hump, physiology, fats, ecology"},
      
-   {"ref": "adaptation-in-camels.htm","title": "Adaptation in Camels","cats": "Biology, Animal physiology, Ecology","tags": "biology, camel, adaptations, physiology, fats, ecology"},
+   {"ref": "main/adaptation-in-camels.htm","title": "Adaptation in Camels","cats": "Biology, Animal physiology, Ecology","tags": "biology, camel, adaptations, physiology, fats, ecology"},
    
-   {"ref": "kangaroo-rat.htm","title": "Some facts about Kangaroo rat","cats": "Biology","tags": "kangaroo-rat, adaptations, rat, xerocoles, rodent"},
+   {"ref": "main/kangaroo-rat.htm","title": "Some facts about Kangaroo rat","cats": "Biology","tags": "kangaroo-rat, adaptations, rat, xerocoles, rodent"},
    
-   {"ref": "buffer-soln.htm","title": "What is Buffer Solution","cats": "Biology, Chemistry","tags": "solution, buffer, ph"}
+   {"ref": "main/buffer-soln.htm","title": "What is Buffer Solution","cats": "Biology, Chemistry","tags": "solution, buffer, ph"}
    
 ]
