@@ -240,7 +240,7 @@ li {
 }
 
 input[type=text] {
-  width: 125px;
+  width: 140px;
   height: 38px;
   color: var(--font-color);
   box-sizing: border-box;
@@ -248,10 +248,10 @@ input[type=text] {
   border-radius: 30px;
   font-size: 14px;
   background-color: var(--navbtn-bg);
-  background-image: url('output-onlinepngtools.png');
-  background-position: 10px 10px; 
+  background-image: url('https://thecoolscience.github.io/main/images/icons/search.png');
+  background-position: 10px 7px; 
   background-repeat: no-repeat;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 35px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.5s ease-in-out;
   margin-left: auto;
@@ -267,7 +267,7 @@ input[type=text]:focus {
 
 @media only screen and (max-width: 600px) {
    input[type=text] {
-      width: 125px;
+      width: 135px;
       height: 38px;
       font-size: 12px;
    }
