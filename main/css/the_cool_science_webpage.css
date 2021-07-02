@@ -11,10 +11,13 @@
     --shadow-nav: 0px 4px 8px 0px rgb(0, 0, 2, 0.2);
     --navbtn-bg: white;
     --menu-btn-click: linear-gradient(to top right, #9966ff 0%, #33ccff 100%);
-    --search-popup-bg: rgb(0, 0, 0, 0.7);
+    --search-overlay-bg: rgb(0, 0, 0, 0.5);
+    --search-popup-bg: #ffffff60;
     --search-popup-border: 1px solid #ccc;
     --search-popup-mark-bg: #ccc;
     --search-popup-mark-color: #262626;
+    --closepopup-color: #00000085;
+    --closepopup-color-hover: #000000d1;
     --dropdown-menu-bg: #fff;
     --dropodown-menu-shadow: 0px 8px 16px 0px lightgrey;
     --dropdown-hover-bg: lightgrey;
@@ -46,10 +49,13 @@
     --shadow-nav: 0px 4px 8px 0px rgb(86, 86, 143, 0.5);
     --navbtn-bg: #131320;
     --menu-btn-click: linear-gradient(to bottom right, #323255 0%, #12121b 100%);
-    --search-popup-bg: rgba(139, 139, 181, 0.7);
+    --search-overlay-bg: rgba(139, 139, 181, 0.7);
+    --search-popup-bg:
     --search-popup-border: 1px solid #6666ff7d;
     --search-popup-mark-bg: #6472a8;
     --search-popup-mark-color: #fdfdfd;
+    --closepopup-color: #000000d1;
+    --closepopup-color-hover: #000000d1;
     --dropdown-menu-bg: #161625;
     --dropdown-menu-shadow: 0px 8px 16px 0px rgb(86, 86, 143, 0.5);
     --dropdown-hover-bg: #4d4d80;
@@ -467,10 +473,13 @@ input[type=text]:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--search-popup-bg);
+  background: var(--search-overlay-bg);
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.0px );
+  -webkit-backdrop-filter: blur( 7.0px );
 }
 .overlay:target {
   visibility: visible;
@@ -485,8 +494,8 @@ input[type=text]:focus {
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: var(--navbtn-bg);
-  border-radius: 5px;
+  background: var(--search-popup-bg);
+  border-radius: 10px;
   width: 70%;
   height: auto;
   max-height: 80%;
@@ -505,14 +514,18 @@ input[type=text]:focus {
   position: absolute;
   top: 28px;
   right: 30px;
-  transition: all 200ms;
+  transition: 0.5s;
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
-  color: var(--font-color);
+  color: var(--closepopup-color);
   border: none;
   background-color: transparent;
   cursor: pointer;  
+}
+
+button.closepopup:hover {
+   color: var(--closepopup-color-hover);
 }
 
 .popup .content {
