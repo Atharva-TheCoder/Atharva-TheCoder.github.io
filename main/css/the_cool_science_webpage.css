@@ -77,6 +77,128 @@
     --sharebtn-shadow: 0px 0px 7px 0px #6666ff;
 }
 
+/*Cookie Popup*/
+.wrapper{
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  max-width: 100%;
+  width: 365px;
+  background: #ffffffa3;
+  backdrop-filter: blur(7px);
+  padding: 25px 25px 30px 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0px #00000045;
+  text-align: center;
+  z-index: 99;
+}
+
+.wrapper.hide{
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+::selection{
+  color: #fff;
+  background: #FCBA7F;
+}
+
+.leftcookiecolumn {
+   float: left;
+   width: 30%;
+}
+
+.rightcookiecolumn {
+   float: left;
+   width: 70%;
+   padding-left: 5px;
+}
+
+.wrapper img{
+  max-width: 80%;
+  margin-top: 25%;
+}
+
+.cookiecontent header{
+  font-size: 18px;
+}
+
+.cookiecontent{
+  margin-top: 10px;
+}
+
+.cookiecontent p{
+  color: #464646cf;
+  margin: 5px 0 20px 0;
+  font-size: 16px;
+}
+
+.cookiecontent .cookiebuttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cookiebuttons button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #0087ffb5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cookiebuttons button:hover {
+  transform: scale(0.97);
+}
+
+.cookiebuttons .item{
+  margin: 0 10px;
+}
+
+.cookiebuttons a{
+  color: #000000de;
+  padding: 3%;
+  width: 45%;
+  border: 1.5px solid #0087ffb5;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.cookiebuttons a:hover {
+   transform: scale(0.97);	
+}
+
+@media only screen and (max-width: 450px) {
+   .wrapper {	
+      display: block;
+      width: 90%;
+      left: 5%;
+   }
+   
+   .wrapper img {
+      width: 25%;
+      margin-top: 0%;
+   }
+   
+   .leftcookiecolumn {
+      width: 100%;
+      float: none;
+   }
+   
+   .rightcookiecolumn {
+      width: 100%;
+      float: none;
+   }
+}
+
 .header {
   background:linear-gradient(to bottom right, #9966ff 0%, #33ccff 100%);
   color: GhostWhite;
