@@ -12,6 +12,6 @@ cookieBox.classList.add("hide"); //hide cookie box
 alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
 }
 }
-let checkCookie = document.cookie.indexOf("The_Cool_Science_Cookies=cookie.DataBase_Savedata_thecoolscience"); //checking our cookie
+let checkCookie = document.cookie.indexOf("DataCookie=cookie.DataBase_Savedata_thecoolscience"); //checking our cookie
 //if cookie is set then hide the cookie box else show it
 checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");

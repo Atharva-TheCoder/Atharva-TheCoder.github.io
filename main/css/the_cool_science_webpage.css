@@ -123,13 +123,6 @@
   transition: 1.5s
 }
 
-.wrapper.hide{
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(0.8);
-  transition: all 0.3s ease;
-}
-
 ::selection{
   color: #fff;
   background: #FCBA7F;
