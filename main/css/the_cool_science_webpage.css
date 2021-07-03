@@ -225,6 +225,7 @@
    .rightcookiecolumn {
       width: 100%;
       float: none;
+      padding: 15px;
    }
    
    .cookiecontent header {
