@@ -207,6 +207,8 @@
       display: block;
       width: 90%;
       left: 5%;
+      top: 30%;
+      bottom: auto;
       padding: 15px 25px 15px 10px;
    }
    
