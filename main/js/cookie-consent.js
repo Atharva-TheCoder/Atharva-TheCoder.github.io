@@ -1,11 +1,11 @@
 //Cookie consent script
 
-const cookieBox = document.querySelector(".wrapper"),
+const cookieBox = document.querySelector(".cookieoverlay"),
 acceptBtn = cookieBox.querySelector("button");
 
 acceptBtn.onclick = ()=>{
 //setting cookie for 1 month, after one month it'll be expired automatically
-document.cookie = "The_Cool_Science_Cookies=cookie.DataBase_Savedata_thecoolscience; max-age="+60*60*24*30;
+document.cookie = "DataCookie=cookie.DataBase_Savedata_thecoolscience; max-age="+60*60*24*30;
 if(document.cookie){ //if cookie is set
 cookieBox.classList.add("hide"); //hide cookie box
 }else{ //if cookie not set then alert an error

@@ -84,6 +84,22 @@
 }
 
 /*Cookie Popup*/
+
+.cookieoverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--search-overlay-bg);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.0px );
+  -webkit-backdrop-filter: blur( 7.0px );
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
 .wrapper{
   position: fixed;
   bottom: 2%;
@@ -628,6 +644,7 @@ input[type=text]:focus {
   backdrop-filter: blur( 7.0px );
   -webkit-backdrop-filter: blur( 7.0px );
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
