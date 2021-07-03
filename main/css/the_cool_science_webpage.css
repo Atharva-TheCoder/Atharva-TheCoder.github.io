@@ -100,6 +100,13 @@
   z-index: 10;
 }
 
+.cookieoverlay.hide{
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
 .wrapper{
   position: fixed;
   bottom: 2%;
