@@ -83,8 +83,11 @@
     --sharebtn-shadow: 0px 0px 7px 0px #6666ff;
 }
 
-/*Cookie Popup*/
+a {
+   text-decoration: none;
+}
 
+/*Cookie Popup*/
 .cookieoverlay {
   position: fixed;
   top: 0;
@@ -1875,4 +1878,48 @@ p.footertext {
 
 .home404:hover .home404:focus {
    background-color: green;
+}
+
+/*Privacy policy style*/
+
+.privacypolicy {
+   margin: 150px;
+   margin-top: 50px;
+   color: var(--font-color);
+   font-family: Delius;
+}
+
+h1.cookiepolicy {
+   font-size: 26px;
+}
+
+.cookieset {
+   margin-left: 3%;
+}
+
+a.cookiecontact {
+   text-decoration: underline;
+   color: var(--font-color);
+}
+
+@media only screen and (max-width: 800px) {
+   .privacypolicy {
+      margin: 50px;
+      margin-top: 20px;
+   } 
+
+   h1.cookiepolicy {
+      font-size: 24px;
+   }
+}
+
+@media only screen and (max-width: 450px) {
+   .privacypolicy {
+      margin: 10px;
+      margin-top: 20px;
+   }
+   
+   h1.cookiepolicy {
+      font-size: 24px;
+   }
 }
