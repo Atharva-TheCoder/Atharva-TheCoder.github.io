@@ -17,8 +17,8 @@
     --search-overlay-bg: rgb(0, 0, 0, 0.5);
     --search-popup-bg: #ffffff70;
     --search-popup-border: 1px solid #ccc;
-    --search-popup-mark-bg: #ccc;
-    --search-popup-mark-color: #262626;
+    --selector-bg: #ccc;
+    --selector-color: #262626;
     --closepopup-color: #00000085;
     --closepopup-color-hover: #000000d1;
     --dropdown-menu-bg: #fff;
@@ -58,8 +58,8 @@
     --search-overlay-bg: rgba(139, 139, 181, 0.7);
     --search-popup-bg: #1616259c;
     --search-popup-border: 1px solid #6666ff7d;
-    --search-popup-mark-bg: #6472a8;
-    --search-popup-mark-color: #fdfdfd;
+    --selector-bg: #6472a8;
+    --selector-color: #fdfdfd;
     --closepopup-color: #c1bfbf9c;
     --closepopup-color-hover: #ffffffb3;
     --dropdown-menu-bg: #161625;
@@ -81,6 +81,11 @@
     --seealso-card-bg: #444479;
     --calculation-bg: #3e3e6d;
     --sharebtn-shadow: 0px 0px 7px 0px #6666ff;
+}
+
+::selection{
+  color: var(--selector-color);
+  background: var(--selector-bg);
 }
 
 a {
@@ -124,11 +129,6 @@ a {
   text-align: center;
   z-index: 99;
   transition: 1.5s
-}
-
-::selection{
-  color: #fff;
-  background: #FCBA7F;
 }
 
 .leftcookiecolumn {
@@ -724,8 +724,8 @@ a.searchResultTitle:hover {
 }
 
 #searchResults mark {
-   background-color: var(--search-popup-mark-bg);
-   color: var(--search-popup-mark-color);
+   background-color: var(--selector-bg);
+   color: var(--selector-color);
    transition: 1.5s;
 }
 
