@@ -38,6 +38,7 @@
     --filterbtn-close-bg-hover: #a672ca;
     --meaning-card-bg: #00ff1040;
     --seealso-card-bg: #ffffad;
+    --facts-bg: #dfc1fc;
     --calculation-bg: #b7ebeb;
     --sharebtn-shadow: 0px 0px 7px 0px #7f7f84;
 }
@@ -79,6 +80,7 @@
     --filterbtn-close-bg-hover: #27274f;
     --meaning-card-bg: #2c2c4e;
     --seealso-card-bg: #444479;
+    --facts-bg: #444479;
     --calculation-bg: #3e3e6d;
     --sharebtn-shadow: 0px 0px 7px 0px #6666ff;
 }
@@ -323,6 +325,7 @@ body {
 
 p, h1, h2, h3, h4, h5, h6 {
    margin: 10px;
+   line-height: 1.5;
 }
 
 /*Simple css to style it like a toggle switch*/
@@ -401,7 +404,7 @@ ul {
 }  
    
 li {
-   float: left
+   float: left;
 }
 
 .navbar {
@@ -703,10 +706,21 @@ button.closepopup:hover {
 }
 
 @media screen and (max-width: 700px){
-
-  .popup{
+   .popup{
     width: 90%;
   }
+  
+  .popup .closepopup {
+    top: 29px;  
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+   .popup .closepopup {
+     top: 30px;
+     font-size: 22px;
+   }
 }
 
 #searchResults .searchResultTitle {
@@ -1330,6 +1344,15 @@ p {
    text-align: justify;
 }
 
+ol {
+
+}
+
+ol li {
+   float: none;
+   line-height: 1.5;
+}
+
 @media only screen and (max-width: 500px) {
    p {
       font-size: 16px;
@@ -1403,6 +1426,12 @@ p {
    transition: 1.5s;
 }
 
+.meanings li {
+   margin-top: 10px;
+   text-align: justify;
+   margin-right: 10px;
+}
+
 .m {
    text-align: left;
    font-size: 18px;
@@ -1413,6 +1442,29 @@ p {
    background-color: var(--seealso-card-bg);
    color: var(--font-color);
    transition: 1.5s;
+}
+
+.see_also li {
+   list-style-type: circle;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+.facts {
+   border-radius: 20px;
+   color: var(--font-color);
+   transition: 1.5s;
+   background-color: var(--facts-bg);
+   padding: 15px;
+   margin: 7px;
+   margin-bottom: 0;
+}
+
+.facts li {
+   list-style-type: disclosure-closed;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.5px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1650,10 +1702,10 @@ p.footertext {
 }
 .c-share__toggler, .c-share_options {
   position: absolute;
-  right: 2.51px;
-  top: 1.45px;
-  width: 47px;
-  height: 47px;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--navbtn-bg);
   transition: 1.5s;
